@@ -1,0 +1,59 @@
+.genius {
+    background-color: black;
+    top: 0;
+    left: 0;
+    right: 0;
+    bottom: 0;
+    margin: auto;
+    position: absolute;
+    height: 50vh;
+    width: 50vh;
+    border: 5px solid black;
+    border-collapse: collapse;
+}
+
+.button {
+    height: 25vh;
+    width: 25vh;
+    border: 5px solid black;
+    opacity: 0.5;
+}
+
+.button:hover {
+    cursor: pointer;
+}
+
+.start-div {
+    left: 0;
+    right: 0;
+    bottom: 0;
+    margin: auto;
+    position: absolute;
+    bottom: 7vh;
+}
+
+.start {
+    background-color: green;
+    border: #2e6da4;
+    font-family: 'Squada One', cursive;
+    font-size: 15px;
+    color: #fff;
+    letter-spacing: 1px;
+    padding: 8px 12px;
+    font-size: 17px;
+    font-weight: normal;
+    border-radius: 4px;
+    line-height: 1.5;
+    text-decoration: none;
+}
+
+.start:hover {
+    cursor: pointer;
+    background-color: #2e6da4;
+}
+
+.text-light {
+    color: #fff;
+    font-family: 'Squada One', cursive;
+    font-size: 10vh;
+}
